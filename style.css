@@ -1,0 +1,223 @@
+body {
+    font-family:Arial,  sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+:root{
+    --primary:#ff00bf;
+    --secondary: rgb(255, 230, 5);
+
+}
+
+.Top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:var(--primary);
+    padding-bottom: 90px;
+}
+
+.Top-content h1 {
+    font-size: 80px;
+    color:var(--secondary) ;
+    margin:30px 50px;
+}
+
+.Top ul {
+    list-style: none;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+.Top li {
+    font-size: 18px;
+    color: white;
+}
+
+.Top .btn {
+    padding: 15px 30px;
+    background: var(--secondary);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    margin: 20px 60px
+}
+
+.top-image{
+    position: absolute;
+    top: 10.4%;
+    right:25%;
+}
+.top-image img {
+    width:45%;
+    height:55vh;
+    margin-left: 500px;
+ 
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.intro-image{
+    position:absolute;
+    top: 54%;
+    right: 40%;
+}
+.intro-image img {
+    width:80%;
+    height: 30vh;
+    border-radius: 50%;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+.intro-text h2{
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 120px;
+    margin-bottom: 0;
+}
+
+.intro-text p{
+    color: rgba(0, 0, 0, 0.475);
+    line-height: 20px;
+  
+}
+.intro .btn{
+    padding: 15px 30px;
+    background: var(--primary);
+    color: rgb(255, 248, 248);
+    text-decoration: none;
+    font-size: 14px;
+    margin: 20px 60px;
+    line-height: 50px;
+}
+.services {
+    text-align: center;
+    padding: 50px;  
+}
+
+.services h2{
+    font-size: 45px;
+    font-weight:bold;
+}
+
+.services h3{
+    font-size: 30px;
+}
+
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+
+.service-box-1 {
+    background: var(--primary);
+    width:23%;
+    padding:55px 10px;
+    color: white;
+    
+}
+
+.service-box-1 i{
+    background: var(--secondary);
+    font-size: 80px;
+    padding: 5px;
+    position: absolute;
+    left: 22%;
+    top: 150%;  
+}
+
+.service-box-2 {
+    background: var(--secondary);
+    width:23%;
+    padding:55px 10px;
+    margin: 0 30px;
+    color: black;
+}
+
+.service-box-2 i{
+    background: var(--primary);
+    font-size:80px;
+    padding: 5px;
+    position: absolute;
+    right: 47%;
+    top: 150%; 
+    color: white; 
+}
+
+.service-box-3 {
+    background: var(--primary);
+    width:23%;
+    padding:55px 10px;
+    color: white;
+}
+
+.service-box-3 i{
+    background: var(--secondary);
+    font-size: 80px;
+    padding: 5px;
+    position: absolute;
+     right:22% ;
+    top: 150%;  
+}
+
+.services p{
+    font-size: 18px;
+}
+
+
+.read-more {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background: #ffffff;
+}
+.read-more-1 p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.475);
+    line-height: 25px;
+    margin-left: 70px;
+}
+
+.read-more-2 p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.475);
+    line-height: 25px;
+    margin-right: 80px;
+}
+
+
+.read-more-1 .btn {
+    padding: 15px 30px;
+    background: var(--secondary);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 60px;
+    margin-left: 176px;
+}
+
+.read-more-2 .btn {
+    padding: 15px 30px;
+    background: var(--secondary);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 60px;
+    margin-left: 110px;
+}
+
+
+
